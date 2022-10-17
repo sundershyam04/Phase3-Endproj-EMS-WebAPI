@@ -1,0 +1,38 @@
+EMS Full Stack App-Requirement
+
+GitHub : https://github.com/sundershyam04/Phase3-Endproj-EMS-WebAPI.git
+
+
+----------------------WRITEUP-----------------------------
+
+A WebAPI project SCHOOL WEBAPI is created 
+
+=> DAL and BLL layer is created 
+
+DAL :
+ Using Entity Framework CodeFirst approach Database connection is set to new database respective connection string is added
+
+DatabaseContext class: EmpManagementContext.cs is created and 
+
+Entity class : EmpProfile and DeptMaster 
+
+New EmpManagementInitializer class is created to seed the database table with initial data
+
+BLL: 
+ business logic layer contains a helper class which directs the control to dal layer operations 
+ helper a abstraction to dal layer from Webapi project
+ 
+ necessary project dependencies and references were set.
+ 
+WebAPIproj:  
+
+Models : Employee and Department model class is created which has same property as same as empprofiles and deptmaster without database component attributes.It is created to return class type data of local availability in webapi proj
+
+EmpController  :created to perform Getallemployee , getemployeebyid, postemployee, putemployee, deleteemployee operations by api requests using helper class which inturns redirects to DAL and returns necesary results
+
+DeptController : created to perform operations like retrieve all department , retrieve all department by id, create new department, update and delete department using GET , POST,PUT,DELETE using helper class which inturns redirects to DAL and returns necesary results
+
+Postman tool is used for api testing and values are recorded and checked for its correct functioning.
+
+
+Thus EMS app is created and tested.
