@@ -28,6 +28,7 @@ WebAPIproj:
 
 Models : Employee and Department model class is created which has same property as same as empprofiles and deptmaster without database component attributes.It is created to return class type data of local availability in webapi proj
 
+=>empcontroller and deptcontroller are created as webapi controller 
 EmpController  :created to perform Getallemployee , getemployeebyid, postemployee, putemployee, deleteemployee operations by api requests using helper class which inturns redirects to DAL and returns necesary results
 
 DeptController : created to perform operations like retrieve all department , retrieve all department by id, create new department, update and delete department using GET , POST,PUT,DELETE using helper class which inturns redirects to DAL and returns necesary results
