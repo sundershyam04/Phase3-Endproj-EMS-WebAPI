@@ -10,4 +10,5 @@ Simplona Tech. Solutions require a Full Stack application EMS (Employee Manageme
 
 You need to create a Full Stack Application to maintain the below details of employees using the multi-layered application described in the system overview.
 
- 
+##### Project Statement : [1658905342_dotnetphase3peptemp (1).docx](https://github.com/sundershyam04/Phase3-Endproj-EMS-WebAPI/files/9797541/1658905342_dotnetphase3peptemp.1.docx)
+
